@@ -1,0 +1,207 @@
+body{
+    font-family: 'Segoe UI';
+    padding: 5px;
+    background-color: #ffffff;
+    width: 1450px;
+}
+.topnav{
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+}
+.topnav >ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.topnav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.topnav>ul>li>a:hover{
+    color: yellow;
+}
+.topnav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+
+.topnav {
+    float: left;
+    display: block;
+    color: greenyellow;
+    padding: 10px 0px 10px 10px;
+    text-decoration: none;
+    line-height: 20px;
+    float: none;
+    font-size: larger;
+}
+.topnav a{    
+    padding: 20px 40px 20px 10px;
+    float: right;
+    text-decoration: none;
+    color: #1b1919;
+
+}
+.topnav a:hover{
+    background-color: rgb(53, 221, 207);
+    color: white;
+    padding:20px;
+    border-radius: 10px;
+}
+.topnav img{
+    float: left;
+    width: 250px;
+    padding: 5px 0px 0px 80px;
+    font-size: 40px;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+.header img{
+    width: 100%;
+    height: 350px;
+}
+
+.footer{
+    clear: both;
+    background-color: rgb(143, 255, 221);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    min-height: 500px;
+    border-radius: 10px;
+}
+.footer .footer1{
+    float: left;
+    width: 40%;
+    padding: 20px 20px 20px 100px;
+}
+.footer1 img{
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin-right: 10px;
+}
+.footer .footer2{
+    float: left;
+    width: 40%;
+    padding: 20px 20px 20px 100px;
+}
+.footer2 img{
+    float: right;
+    width: 60%;
+    height: 140px;
+    margin-right: 10px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: black;
+}
+.footer2 a:hover{
+    color: rgb(1, 65, 14);
+    font-weight: bolder;
+}
+.footer .footer3{
+     clear: both;
+     color: white;
+     text-align: center;
+     background-color: black;
+     padding: 5px;
+     margin: 1px;
+     border-radius: 10px;
+}
+.cangiua{
+    padding-left: 30px;
+}
+
+.tuvan{
+    float: left;
+    width: 1000px;
+}
+.tuvan > .lienhe{
+    float: left;
+    width: 30%;
+}
+.lienhe{
+    padding: 10px;
+    margin: 10px;
+}
+.form{
+    padding: 10px;
+    margin: 20px;
+}
+.tuvan > .form{
+    float: right;
+    width: 60%;
+}
+.form-group{
+    margin:10px 0px
+}
+.form-control{
+width:98%;
+padding: 5px 10px ;
+outline:none;
+border: 1px solid gray;
+border-radius:3 px;
+}
+.form-group label{
+font-weight:bold;
+}
+.form-control:focus{
+background-color:rgb(255, 255, 255);
+box-shadow:0 0 3px rgb(0, 128, 21);
+border: 1px solid rgb(0, 151, 58);
+}
+.form-button{
+padding: 10px 30px;
+outline:none;
+border:none;
+border-radius:20px ;
+font-weight:bold;
+background-color:white;
+color:rgb(0, 61, 0);
+box-shadow:inset 0 0 20px rgb(50, 255, 112);
+}
+.form-button:hover{
+color:rgb(0, 75, 4);
+box-shadow:inset 0 0 20px rgb(142, 148, 140);
+}
+.form-button:disabled{
+color:rgb(184, 184, 184);
+box-shadow:inset 0 0 20px rgb(243, 240, 240)
+}
+.danhmuc{
+    width: 25%;
+    float: right;
+    padding-right: 30px;
+}
+.vmenu{
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow:0 0 2px rgb(0, 0, 0);
+    }
+.vmenu a{
+    display: block;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    color: rgb(4, 78, 68);
+    font-size: medium;
+    text-decoration: none;
+    padding: 5px;
+    }
+ul.vmenu > li > a:hover{
+    border-bottom: 1px dotted rgb(104, 247, 223);
+    background-color: rgb(7, 184, 86);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
